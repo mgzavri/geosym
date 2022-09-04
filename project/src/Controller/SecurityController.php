@@ -21,9 +21,9 @@ class SecurityController extends AbstractController
         // last username entered by the user
         $lastUsername = $authenticationUtils->getLastUsername();
 
-        return $this->render('admin/security/login.html.twig', ['last_username' => $lastUsername, 'error' => $error]);
+        return $this->render('security/login.html.twig', ['last_username' => $lastUsername, 'error' => $error]);
     }
-
+/*
     #[Route(path: '/admin', name: 'admin')]
     public function adminStub(): Response
     {
@@ -33,6 +33,7 @@ class SecurityController extends AbstractController
          <p>Чтобы выйти из этого гиблого места, <a href="/logout">разлогинься</a> или <a href="/">возвращайся на сайт</a> </p>');
         return $respnse;
     }
+*/
 
     #[Route(path: '/logout', name: 'app_logout')]
     public function logout(): void

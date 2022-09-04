@@ -58,8 +58,8 @@
 1) [ ] Перейти в папку проекта и запустить "make init"
 2) [ ] запустить миграции (``make app-migrations``)
 3) [ ] накатить фикстуры (``make app-php-cli-bash`` -> ``symfony console d:f:l``)
-    - login : admin@positron-it.ru
-    - pass : symD3V \
+    - login : admin@geolyrics.ru
+    - pass : 123456 \
     ФИКСТУРЫ НА ПРОДЕ НЕ РАБОТАЮТ!
 
 Сайт доступен на http://localhost:8033 \

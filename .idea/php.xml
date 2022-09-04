@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="05c60ef9-213b-42ab-82fc-d24b61897e3b" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/project/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.env.local.tmpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/yarn.lock" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/project/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Makefile" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/project/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/project/vendor/sebastian/complexity" />
@@ -180,66 +140,7 @@
       <path value="$PROJECT_DIR$/project/vendor/symfony/uid" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2EFwjKZstFJm9GmxM4gQ5z9lcFA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/mgzavri/PROJECTS/symsix-template",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="05c60ef9-213b-42ab-82fc-d24b61897e3b" name="Changes" comment="" />
-      <created>1662204777474</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1662204777474</updated>
-      <workItem from="1662204779895" duration="19000" />
-      <workItem from="1662214071320" duration="1693000" />
-      <workItem from="1662233657299" duration="692000" />
-      <workItem from="1662298343429" duration="414000" />
-      <workItem from="1662298766266" duration="982000" />
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1662214508721</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1662214508721</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
 </project>
