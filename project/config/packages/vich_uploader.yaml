@@ -1,0 +1,27 @@
+vich_uploader:
+    db_driver: orm
+    metadata:
+        type: attribute
+    mappings:
+        audio:
+            uri_prefix: '%app.path.upload_audio%'
+            upload_destination: '%kernel.project_dir%/public%app.path.upload_audio%'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+            directory_namer:
+                service: vich_uploader.namer_directory_property
+                options: { property: 'directory', transliterate: true }
+        video:
+            uri_prefix: '%app.path.upload_video%'
+            upload_destination: '%kernel.project_dir%/public%app.path.upload_video%'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+            directory_namer:
+                service: vich_uploader.namer_directory_property
+                options: { property: 'directory', transliterate: true }
+        image:
+            uri_prefix: '%app.path.upload_image%'
+            upload_destination: '%kernel.project_dir%/public%app.path.upload_image%'
+            namer: Vich\UploaderBundle\Naming\SmartUniqueNamer
+            directory_namer:
+                service: vich_uploader.CurrentDateTimeDirectoryNamer
+                options:
+                  { date_time_format: 'Y-m-d', date_time_property: uploadTimestamp }

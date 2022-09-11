@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c60ef9-213b-42ab-82fc-d24b61897e3b" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="05c60ef9-213b-42ab-82fc-d24b61897e3b" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/project/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/admin/easyadmin/dashboard.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geosym.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geosym.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/project/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.env.local.tmpl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/project/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/project/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/Controller/Admin/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +141,6 @@
       <path value="$PROJECT_DIR$/project/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/project/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/project/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/project/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/project/vendor/phpstan/phpdoc-parser" />
       <path value="$PROJECT_DIR$/project/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/project/vendor/phar-io/version" />
@@ -178,6 +172,8 @@
       <path value="$PROJECT_DIR$/project/vendor/easycorp/easyadmin-bundle" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/project/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/jms/metadata" />
     </include_path>
   </component>
   <component name="ProjectId" id="2EFwjKZstFJm9GmxM4gQ5z9lcFA" />
@@ -191,15 +187,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/mgzavri/PROJECTS/symsix-template",
+    "last_opened_file_path": "/home/mgzavri/PROJECTS/geosym/project/config/packages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/config/packages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -212,7 +219,9 @@
       <workItem from="1662214071320" duration="1693000" />
       <workItem from="1662233657299" duration="692000" />
       <workItem from="1662298343429" duration="414000" />
-      <workItem from="1662298766266" duration="982000" />
+      <workItem from="1662298766266" duration="1476000" />
+      <workItem from="1662913539127" duration="1786000" />
+      <workItem from="1662915335540" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1662214508721</created>
@@ -221,7 +230,42 @@
       <option name="project" value="LOCAL" />
       <updated>1662214508721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1662299840203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662299840203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1662299874539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662299874539</updated>
+    </task>
+    <task id="LOCAL-00004" summary="second commit">
+      <created>1662300029552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662300029552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="second commit">
+      <created>1662300075921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662300075921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="second commit">
+      <created>1662300120067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662300120067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +284,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

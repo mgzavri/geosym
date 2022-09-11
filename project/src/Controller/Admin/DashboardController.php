@@ -3,6 +3,7 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Admin;
+use App\Entity\Artist;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
@@ -30,7 +31,7 @@ class DashboardController extends AbstractDashboardController
         // Option 3. You can render some custom template to display a proper dashboard with widgets, etc.
         // (tip: it's easier if your template extends from @EasyAdmin/page/content.html.twig)
         //
-         return $this->render('@EasyAdmin/page/content.html.twig');
+         return $this->render('admin/easyadmin/dashboard.html.twig');
     }
 
     public function configureDashboard(): Dashboard
@@ -42,6 +43,10 @@ class DashboardController extends AbstractDashboardController
     public function configureMenuItems(): iterable
     {
         yield MenuItem::linkToDashboard('Панель управления', 'fa fa-home');
-         yield MenuItem::linkToCrud('Администраторы', 'fas fa-key', Admin::class);
+        yield MenuItem::section('Настройки');
+        yield MenuItem::linkToCrud('Администраторы', 'fas fa-key', Admin::class);
+
+        yield MenuItem::section('Музыка');
+        yield MenuItem::linkToCrud('Исполнители', 'fa fa-user-circle-o', Artist::class);
     }
 }

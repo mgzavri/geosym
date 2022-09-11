@@ -106,7 +106,6 @@
       <path value="$PROJECT_DIR$/project/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/project/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/project/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/project/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/project/vendor/phpstan/phpdoc-parser" />
       <path value="$PROJECT_DIR$/project/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/project/vendor/phar-io/version" />
@@ -138,9 +137,16 @@
       <path value="$PROJECT_DIR$/project/vendor/easycorp/easyadmin-bundle" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/project/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/project/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/project/vendor/jms/metadata" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/project/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
